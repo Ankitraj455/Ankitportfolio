@@ -48,7 +48,7 @@
 <div class="hero-text">
 <h1>Hi, I'm <span>Ankit Rajput</span></h1>
 <p id="typing"></p>
-<p>Web Developer|Designer|Freelancer</p>
+<p><strong>Building Modern & Responsive Websites for You.</strong></p>
 <a href="#contact" class="hire-btn-pro">Hire Me</a>
 </div>
 <div class="hero-img">
@@ -276,7 +276,7 @@ let charIndex = 0;
 let currentText = "";
 let isDeleting = false;
 
-const typingElement = document.querySelector(".typing");
+const typingElement = document.querySelector("#typing");
 
 function typeEffect(){
   currentText = textArray[typingIndex];
@@ -297,7 +297,7 @@ function typeEffect(){
     }
   }
 
-  setTimeout(typeEffect, isDeleting ? 60 : 120);
+  
 }
 
 typeEffect();
